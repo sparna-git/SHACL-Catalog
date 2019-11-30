@@ -4,3 +4,8 @@
 @prefix dc:   <http://purl.org/dc/elements/1.1/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
+<https://webgate.ec.europa.eu/eli-validator/shapes/eli-1.2-shapes.ttl> a foaf:Document ;
+  skos:prefLabel "ELI Shapes" ;
+  dc:subject "ELI" ;
+  dct:coverage <http://data.europa.eu/eli/ontology#> ;
+.
