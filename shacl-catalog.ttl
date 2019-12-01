@@ -8,9 +8,9 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix :     <http://shacl-play.net/catalog#> .
 
-:eli-shapes a dcat:Dataset ;
+:eli a dcat:Dataset ;
   dct:title "ELI Shapes" ;
-  dct:description "The ELI ontology defines a common data model for exchanging legislation metadata on the web; the primary users of the ELI model are the official legal publishers of EU Member States, and the model can also be used by other organisations. The description of legislation in ELI follows the principles of FRBR.";
+  dct:description "The European Legislation Idenfitier ontology defines a common data model for exchanging legislation metadata on the web; the primary users of the ELI model are the official legal publishers of EU Member States, and the model can also be used by other organisations. The description of legislation in ELI follows the principles of FRBR.";
   foaf:isPrimaryTopicOf [
     dct:issued "2019-12-01"^^xsd:date ;
     dct:creator "Thomas Francart" ;
@@ -25,11 +25,38 @@
   ] ;
   dcat:contactPoint <mailto:thomas.francart@sparna.fr> ;
   dct:publisher "ELI Taskforce" ;  
-  dcat:keyword "ELI" ;
-  dct:issued "2019-02-01"^^xsd:date ;
+  dcat:keyword "ELI", "Legislation" ;
+  dct:issued "2017-02-01"^^xsd:date ;
   dct:creator "Thomas Francart" ;
   dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   # dcat:landingPage
   dct:isRequiredBy <https://webgate.ec.europa.eu/eli-validator/>, <https://eur-lex.europa.eu/eli-register/about.html> ;
   dct:references <http://data.europa.eu/eli/ontology#> ;
+.
+
+
+:openarchaeo a dcat:Dataset ;
+  dct:title "OpenArchaeo Shapes" ;
+  dct:description "Model of the OpenArchaeo platform, a subset of the CIDOC-CRM + CRMarchaeo to describe archaelogical sites discoveries, walls, burials, furnitures, stratigraphic units.";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2019-12-01"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
+  ] ;
+  # dcat:contactPoint <mailto:> ;
+  dct:publisher "MASA consortium" ;  
+  dcat:keyword "Archaeology", "OpenArchaeo" ;
+  dct:issued "2019-12-02"^^xsd:date ;
+  dct:creator "Thomas Francart" ;
+  dct:language <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+  # dcat:landingPage
+  dct:isRequiredBy <http://openarchaeo.huma-num.fr/explorateur/> ;
+  dct:references <http://www.cidoc-crm.org/cidoc-crm/>, <http://www.ics.forth.gr/isl/CRMarchaeo/>, <http://www.ics.forth.gr/isl/CRMba/>, <http://www.ics.forth.gr/isl/CRMsci/> ;
 .
