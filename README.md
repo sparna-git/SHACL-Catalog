@@ -1,1 +1,1 @@
-# SHACL-Registry
+# SHACL-Catalog
