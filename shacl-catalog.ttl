@@ -4,9 +4,21 @@
 @prefix dc:   <http://purl.org/dc/elements/1.1/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix : <http://shacl-play.net/catalog#> .
 
-<https://webgate.ec.europa.eu/eli-validator/shapes/eli-1.2-shapes.ttl> a foaf:Document ;
-  skos:prefLabel "ELI Shapes" ;
-  dc:subject "ELI" ;
+:eli-shapes a dcat:Dataset ;
+  dct:title "ELI Shapes" ;
+  dcat:distribution [
+    dcat:downloadURL <https://webgate.ec.europa.eu/eli-validator/shapes/eli-1.2-shapes.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ]
+  dcat:keyword "ELI" ;
+  # dct:issued
+  # dct:creator
+  # dcat:contactPoint
+  # dct:description
+  # dct:language
+  # dcat:landingPage
   dct:coverage <http://data.europa.eu/eli/ontology#> ;
 .
