@@ -14,7 +14,7 @@
   foaf:isPrimaryTopicOf [
     dct:issued "2019-12-01"^^xsd:date ;
     dct:creator "Thomas Francart" ;
-  ]
+  ] ;
   dcat:distribution [
     dcat:downloadURL <https://webgate.ec.europa.eu/eli-validator/shapes/eli-1.2-shapes.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
