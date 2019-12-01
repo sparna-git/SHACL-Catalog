@@ -10,6 +10,11 @@
 
 :eli-shapes a dcat:Dataset ;
   dct:title "ELI Shapes" ;
+  dct:description "The ELI ontology defines a common data model for exchanging legislation metadata on the web; the primary users of the ELI model are the official legal publishers of EU Member States, and the model can also be used by other organisations. The description of legislation in ELI follows the principles of FRBR.";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2019-12-01"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ]
   dcat:distribution [
     dcat:downloadURL <https://webgate.ec.europa.eu/eli-validator/shapes/eli-1.2-shapes.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
@@ -18,18 +23,13 @@
     dcat:downloadURL <https://webgate.ec.europa.eu/eli-validator/shapes/eli-1.2-shapes.xlsx> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
   ] ;
+  dcat:contactPoint <mailto:thomas.francart@sparna.fr> ;
+  dct:publisher "ELI Taskforce" ;  
   dcat:keyword "ELI" ;
   dct:issued "2019-02-01"^^xsd:date ;
   dct:creator "Thomas Francart" ;
-  dct:publisher "ELI Taskforce" ;    
-  dcat:contactPoint <mailto:thomas.francart@sparna.fr> ;
-  dct:description "The ELI ontology defines a common data model for exchanging legislation metadata on the web; the primary users of the ELI model are the official legal publishers of EU Member States, and the model can also be used by other organisations. The description of legislation in ELI follows the principles of FRBR.";
   dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   # dcat:landingPage
   dct:isRequiredBy <https://webgate.ec.europa.eu/eli-validator/>, <https://eur-lex.europa.eu/eli-register/about.html> ;
   dct:references <http://data.europa.eu/eli/ontology#> ;
-  foaf:isPrimaryTopicOf [
-    dct:issued "2019-12-01"^^xsd:date ;
-    dct:creator "Thomas Francart" ;
-  ]
 .
