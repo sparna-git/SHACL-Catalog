@@ -5,6 +5,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix :     <http://shacl-play.net/catalog#> .
 
 :eli-shapes a dcat:Dataset ;
@@ -12,14 +13,19 @@
   dcat:distribution [
     dcat:downloadURL <https://webgate.ec.europa.eu/eli-validator/shapes/eli-1.2-shapes.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
-  ]
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://webgate.ec.europa.eu/eli-validator/shapes/eli-1.2-shapes.xlsx> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
+  ] ;
   dcat:keyword "ELI" ;
-  # dct:issued
-  # dct:creator
-  # dcat:contactPoint
-  # dct:description
-  # dct:language
+  dct:issued "2019-02-01"^^xsd:date ;
+  dct:creator "Thomas Francart" ;
+  dct:publisher "ELI Taskforce" ;    
+  dcat:contactPoint <mailto:thomas.francart@sparna.fr> ;
+  dct:description "The ELI ontology defines a common data model for exchanging legislation metadata on the web; the primary users of the ELI model are the official legal publishers of EU Member States, and the model can also be used by other organisations. The description of legislation in ELI follows the principles of FRBR.";
+  dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
   # dcat:landingPage
-  # dct:isRequiredBy
+  dct:isRequiredBy <https://webgate.ec.europa.eu/eli-validator/>, <https://eur-lex.europa.eu/eli-register/about.html> ;
   dct:references <http://data.europa.eu/eli/ontology#> ;
 .
