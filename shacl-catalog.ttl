@@ -28,7 +28,7 @@
   dcat:keyword "ELI", "Legislation" ;
   dct:issued "2017-02-01"^^xsd:date ;
   dct:creator "Thomas Francart" ;
-  dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+  dct:language "en" ;
   # dcat:landingPage
   dct:isRequiredBy <https://webgate.ec.europa.eu/eli-validator/>, <https://eur-lex.europa.eu/eli-register/about.html> ;
   dct:references <http://data.europa.eu/eli/ontology#> ;
@@ -55,7 +55,7 @@
   dcat:keyword "Archaeology", "OpenArchaeo", "CIDOC-CRM" ;
   dct:issued "2019-12-02"^^xsd:date ;
   dct:creator "Thomas Francart" ;
-  dct:language <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+  dct:language "fr" ;
   # dcat:landingPage
   dct:isRequiredBy <http://openarchaeo.huma-num.fr/explorateur/> ;
   dct:references <http://www.cidoc-crm.org/cidoc-crm/>, <http://www.ics.forth.gr/isl/CRMarchaeo/>, <http://www.ics.forth.gr/isl/CRMba/>, <http://www.ics.forth.gr/isl/CRMsci/> ;
