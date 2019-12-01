@@ -43,16 +43,16 @@
     dct:creator "Thomas Francart" ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <> ;
+    dcat:downloadURL <http://openarchaeo.huma-num.fr/federation/shapes/OpenArchaeo-Shapes.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <> ;
+    dcat:downloadURL <http://openarchaeo.huma-num.fr/federation/shapes/OpenArchaeo-Shapes.xslx> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
   ] ;
   # dcat:contactPoint <mailto:> ;
   dct:publisher "MASA consortium" ;  
-  dcat:keyword "Archaeology", "OpenArchaeo" ;
+  dcat:keyword "Archaeology", "OpenArchaeo", "CIDOC-CRM" ;
   dct:issued "2019-12-02"^^xsd:date ;
   dct:creator "Thomas Francart" ;
   dct:language <http://id.loc.gov/vocabulary/iso639-1/fr> ;
