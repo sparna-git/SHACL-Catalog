@@ -1,11 +1,11 @@
-@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix dct:  <http://purl.org/dc/terms/>.
 @prefix dc:   <http://purl.org/dc/elements/1.1/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix : <http://shacl-play.net/catalog#> .
+@prefix :     <http://shacl-play.net/catalog#> .
 
 :eli-shapes a dcat:Dataset ;
   dct:title "ELI Shapes" ;
@@ -20,5 +20,6 @@
   # dct:description
   # dct:language
   # dcat:landingPage
-  dct:coverage <http://data.europa.eu/eli/ontology#> ;
+  # dct:isRequiredBy
+  dct:references <http://data.europa.eu/eli/ontology#> ;
 .
