@@ -29,7 +29,7 @@
   dct:issued "2017-02-01"^^xsd:date ;
   dct:creator "Thomas Francart" ;
   dct:language "en" ;
-  # dcat:landingPage
+  dcat:landingPage <https://op.europa.eu/en/web/eu-vocabularies/eli> ;
   dct:isRequiredBy <https://webgate.ec.europa.eu/eli-validator/>, <https://eur-lex.europa.eu/eli-register/about.html> ;
   dct:references <http://data.europa.eu/eli/ontology#> ;
 .
