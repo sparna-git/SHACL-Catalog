@@ -37,7 +37,7 @@
 
 :openarchaeo a dcat:Dataset ;
   dct:title "OpenArchaeo Shapes" ;
-  dct:description "Model of the OpenArchaeo platform, a subset of the CIDOC-CRM + CRMarchaeo to describe archaelogical sites discoveries, walls, burials, furnitures, stratigraphic units.";
+  dct:description "Model of the <a href=\"http://openarchaeo.huma-num.fr/explorateur/\">OpenArchaeo platform</a>, a subset of the CIDOC-CRM + CRMarchaeo to describe archaelogical sites discoveries, walls, burials, furnitures, stratigraphic units.";
   foaf:isPrimaryTopicOf [
     dct:issued "2019-12-01"^^xsd:date ;
     dct:creator "Thomas Francart" ;
