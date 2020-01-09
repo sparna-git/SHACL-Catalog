@@ -43,11 +43,11 @@
     dct:creator "Thomas Francart" ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <http://openarchaeo.huma-num.fr/federation/shapes/OpenArchaeo-Shapes.ttl> ;
+    dcat:downloadURL <http://openarchaeo.huma-num.fr/federation/resources/shapes/OpenArchaeo-Shapes.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <http://openarchaeo.huma-num.fr/federation/shapes/OpenArchaeo-Shapes.xslx> ;
+    dcat:downloadURL <http://openarchaeo.huma-num.fr/federation/resources/shapes/OpenArchaeo-Shapes.xslx> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
   ] ;
   # dcat:contactPoint <mailto:> ;
