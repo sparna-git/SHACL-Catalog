@@ -10,7 +10,7 @@
 
 :eli a dcat:Dataset ;
   dct:title "ELI Shapes" ;
-  dct:description "The European Legislation Idenfitier ontology defines a common data model for exchanging legislation metadata on the web; the primary users of the ELI model are the official legal publishers of EU Member States, and the model can also be used by other organisations. The description of legislation in ELI follows the principles of FRBR.";
+  dct:description "The <a href=\"https://op.europa.eu/en/web/eu-vocabularies/eli\">European Legislation Idenfitier ontology</a> defines a common data model for exchanging legislation metadata on the web; the primary users of the ELI model are the official legal publishers of EU Member States, and the model can also be used by other organisations. The description of legislation in ELI follows the principles of FRBR.";
   foaf:isPrimaryTopicOf [
     dct:issued "2019-12-01"^^xsd:date ;
     dct:creator "Thomas Francart" ;
