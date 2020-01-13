@@ -8,6 +8,29 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix :     <http://shacl-play.sparna.fr/catalog#> .
 
+:shaclplay-catalog a dcat:Dataset ;
+  dct:title "SHACL Play! Catalog shapes" ;
+  dct:description "The expected structure of the SHACL Play! <a href=\"http://shacl-play.sparna.fr/catalog\">Shapes Catalog</a>.";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2020-01-13"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <http://shacl-play.sparna.fr/resources/shapes/shacl-play-shapes-catalog.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dcat:contactPoint <mailto:thomas.francart@sparna.fr> ;
+  dct:publisher "Sparna" ;  
+  dcat:keyword "SHACL", "SHACL Play!" ;
+  dct:issued "2020-01-13"^^xsd:date ;
+  dct:creator "Thomas Francart" ;
+  dct:language "en" ;
+  dcat:landingPage <http://shacl-play.sparna.fr/catalog> ;
+  dct:isRequiredBy <http://shacl-play.sparna.fr> ;
+  dct:references <http://www.w3.org/ns/dcat#>, <http://purl.org/dc/terms/>, <http://xmlns.com/foaf/0.1/> ;
+.
+
+
 :eli a dcat:Dataset ;
   dct:title "ELI Shapes" ;
   dct:description "The <a href=\"https://op.europa.eu/en/web/eu-vocabularies/eli\">European Legislation Idenfitier ontology</a> defines a common data model for exchanging legislation metadata on the web; the primary users of the ELI model are the official legal publishers of EU Member States, and the model can also be used by other organisations. The description of legislation in ELI follows the principles of FRBR.";
