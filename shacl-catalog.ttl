@@ -27,7 +27,7 @@
   dcat:landingPage <https://www.w3.org/TR/shacl/> ;
   dct:isRequiredBy <https://www.w3.org/TR/shacl/> ;
   dct:references <http://www.w3.org/ns/shacl#> ;
-
+.
 
 :shaclplay-catalog a dcat:Dataset ;
   dct:title "SHACL Play! Catalog shapes" ;
