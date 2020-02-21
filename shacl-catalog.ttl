@@ -8,6 +8,27 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix :     <http://shacl-play.sparna.fr/catalog#> .
 
+:shsh a dcat:Dataset ;
+  dct:title "SHACL for SHACL" ;
+  dct:description "A SHACL shapes graph to validate SHACL shapes graphs." ;
+  foaf:isPrimaryTopicOf [
+    dct:issued "2020-02-21"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://www.w3.org/ns/shacl-shacl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dct:publisher "W3C" ;  
+  dcat:keyword "SHACL" ;
+  dct:issued "2017-04-04"^^xsd:date ;
+  dct:creator "W3C Data Shapes Working Group" ;
+  dct:language "en" ;
+  dcat:landingPage <https://www.w3.org/TR/shacl/> ;
+  dct:isRequiredBy <https://www.w3.org/TR/shacl/> ;
+  dct:references <http://www.w3.org/ns/shacl#> ;
+
+
 :shaclplay-catalog a dcat:Dataset ;
   dct:title "SHACL Play! Catalog shapes" ;
   dct:description "The expected structure of the SHACL Play! <a href=\"http://shacl-play.sparna.fr/catalog\">Shapes Catalog</a>.";
