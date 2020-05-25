@@ -115,7 +115,7 @@
     dct:creator "Thomas Francart" ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <https://gist.githubusercontent.com/tfrancart/cd7af66ba629352f353bec49b76efb98/raw/2266fd9d627967caf656a15cae669324d2f14140/ScoLOMFR-V6-AP-SHACL.ttl> ;
+    dcat:downloadURL <https://gist.githubusercontent.com/tfrancart/cd7af66ba629352f353bec49b76efb98/raw/ScoLOMFR-V6-AP-SHACL.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
   ] ;
   #dcat:distribution [
