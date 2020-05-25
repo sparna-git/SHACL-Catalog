@@ -104,3 +104,31 @@
   dct:isRequiredBy <http://openarchaeo.huma-num.fr/explorateur/> ;
   dct:references <http://www.cidoc-crm.org/cidoc-crm/>, <http://www.ics.forth.gr/isl/CRMarchaeo/>, <http://www.ics.forth.gr/isl/CRMba/>, <http://www.ics.forth.gr/isl/CRMsci/> ;
 .
+
+
+
+:scoLOMFR a dcat:Dataset ;
+  dct:title "ScoLOMFR Application Profile Shapes" ;
+  dct:description "Application Profile for the dissemination of the <a href=\"https://www.reseau-canope.fr/scolomfr/accueil.html\">ScoLOMFR</a> in RDF.";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2020-05-25"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://gist.githubusercontent.com/tfrancart/cd7af66ba629352f353bec49b76efb98/raw/2266fd9d627967caf656a15cae669324d2f14140/ScoLOMFR-V6-AP-SHACL.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  #dcat:distribution [
+  #  dcat:downloadURL <.xslx> ;
+  #  dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
+  #] ;
+  # dcat:contactPoint <mailto:> ;
+  dct:publisher "Réseau Canopé" ;  
+  dcat:keyword "ScoLOMFR", "LOM", "LOMFR", "Ressources Pédagogiques" ;
+  dct:issued "2020-06-30"^^xsd:date ;
+  dct:creator "Thomas Francart" ;
+  dct:language "fr" ;
+  dcat:landingPage <https://www.reseau-canope.fr/scolomfr/accueil.html> ;
+  # dct:isRequiredBy <http://openarchaeo.huma-num.fr/explorateur/> ;
+  dct:references <http://www.w3.org/2004/02/skos/core#>, <https://www.reseau-canope.fr/scolomfr/ontologie#>, <http://www.w3.org/2008/05/skos-xl#>, <http://www.w3.org/ns/dcat#>, <http://purl.org/dc/terms/>, <http://purl.org/iso25964/skos-thes#>, <http://www.w3.org/ns/prov#> ;
+.
