@@ -108,7 +108,7 @@
 
 
 :scoLOMFR a dcat:Dataset ;
-  dct:title "ScoLOMFR Application Profile Shapes" ;
+  dct:title "ScoLOMFR Application Profile" ;
   dct:description "Application Profile for the dissemination of the <a href=\"https://www.reseau-canope.fr/scolomfr/accueil.html\">ScoLOMFR</a> in RDF.";
   foaf:isPrimaryTopicOf [
     dct:issued "2020-05-25"^^xsd:date ;
