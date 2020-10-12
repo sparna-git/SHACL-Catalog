@@ -6,7 +6,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-@prefix :     <http://shacl-play.sparna.fr/catalog#> .
+@prefix :     <http://shacl-play.sparna.fr/shapes-catalog#> .
 
 :shsh a dcat:Dataset ;
   dct:title "SHACL for SHACL" ;
