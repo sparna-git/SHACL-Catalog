@@ -1,1 +1,30 @@
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dct:  <http://purl.org/dc/terms/>.
+@prefix dc:   <http://purl.org/dc/elements/1.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix :     <http://shacl-play.sparna.fr/rules-catalog#> .
 
+:owl2shacl-original a dcat:Dataset ;
+  dct:title "OWL to SHACL : original ruleset" ;
+  dct:description "Original OWL 2 SHACL ruleset from TopQuadrant" ;
+  foaf:isPrimaryTopicOf [
+    dct:issued "2020-10-12"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <http://shacl-play.sparna.fr/rules/owl2shacl.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dct:publisher "TopQuadrant" ;  
+  dcat:keyword "OWL" ;
+  dct:issued "2017-04-04"^^xsd:date ;
+  dct:creator "TopQuadarnt" ;
+  dct:language "en" ;
+  dcat:landingPage <https://www.topquadrant.com/from-owl-to-shacl-in-an-automated-way/> ;
+  :sourceModel <http://www.w3.org/2002/07/owl#> ;
+  :targetModel <http://www.w3.org/ns/shacl#> ;
+.
