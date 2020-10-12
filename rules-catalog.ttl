@@ -20,8 +20,8 @@
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
   ] ;
   dct:publisher "TopQuadrant" ;  
-  dcat:keyword "OWL" ;
-  dct:issued "2017-04-04"^^xsd:date ;
+  # dcat:keyword "OWL" ;
+  dct:issued "2018-01-01"^^xsd:date ;
   dct:creator "TopQuadarnt" ;
   dct:language "en" ;
   dcat:landingPage <https://www.topquadrant.com/from-owl-to-shacl-in-an-automated-way/> ;
