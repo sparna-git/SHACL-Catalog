@@ -8,23 +8,44 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix :     <http://shacl-play.sparna.fr/rules-catalog#> .
 
-:owl2shacl-original a dcat:Dataset ;
-  dct:title "OWL to SHACL : original ruleset" ;
-  dct:description "Original OWL 2 SHACL ruleset from TopQuadrant" ;
+:owl2shacl-simple a dcat:Dataset ;
+  dct:title "OWL to SHACL : simple conversion" ;
+  dct:description "OWL 2 SHACL simple ruleset, derived from original ruleset from TopQuadrant" ;
   foaf:isPrimaryTopicOf [
     dct:issued "2020-10-12"^^xsd:date ;
     dct:creator "Thomas Francart" ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2shacl-original.ttl> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2shacl-simple.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
   ] ;
-  dct:publisher "TopQuadrant" ;  
+  dct:publisher "Sparna" ;  
   # dcat:keyword "OWL" ;
-  dct:issued "2018-01-01"^^xsd:date ;
-  dct:creator "TopQuadarnt" ;
+  dct:issued "2020-10-14"^^xsd:date ;
+  dct:creator "Sparna" ;
   dct:language "en" ;
-  dcat:landingPage <https://www.topquadrant.com/from-owl-to-shacl-in-an-automated-way/> ;
+  dcat:landingPage <https://github.com/sparna-git/owl2shacl> ;
+  :sourceModel <http://www.w3.org/2002/07/owl#> ;
+  :targetModel <http://www.w3.org/ns/shacl#> ;
+.
+
+:owl2shacl-closed a dcat:Dataset ;
+  dct:title "OWL to SHACL : closed conversion" ;
+  dct:description "OWL 2 SHACL closed ruleset, that closes every NodeShape" ;
+  foaf:isPrimaryTopicOf [
+    dct:issued "2020-10-12"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2shacl-closed.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dct:publisher "Sparna" ;  
+  # dcat:keyword "OWL" ;
+  dct:issued "2020-10-14"^^xsd:date ;
+  dct:creator "Sparna" ;
+  dct:language "en" ;
+  dcat:landingPage <https://github.com/sparna-git/owl2shacl> ;
   :sourceModel <http://www.w3.org/2002/07/owl#> ;
   :targetModel <http://www.w3.org/ns/shacl#> ;
 .
