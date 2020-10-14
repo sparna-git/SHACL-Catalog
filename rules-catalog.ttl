@@ -31,7 +31,29 @@
 
 :owl2shacl-closed-flatten a dcat:Dataset ;
   dct:title "OWL to SHACL : flatten classes" ;
-  dct:description "OWL 2 SHACL closed ruleset, that closes every NodeShape and copy downwards proeprties from superclasses" ;
+  dct:description "OWL 2 SHACL closed ruleset, that closes every NodeShape and copy downwards properties from superclasses" ;
+  foaf:isPrimaryTopicOf [
+    dct:issued "2020-10-14"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2shacl-closed.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dct:publisher "Sparna" ;  
+  # dcat:keyword "OWL" ;
+  dct:issued "2020-10-14"^^xsd:date ;
+  dct:creator "Sparna" ;
+  dct:language "en" ;
+  dcat:landingPage <https://github.com/sparna-git/owl2shacl> ;
+  :sourceModel <http://www.w3.org/2002/07/owl#> ;
+  :targetModel <http://www.w3.org/ns/shacl#> ;
+.
+
+
+:owl2shacl-closed-ignore a dcat:Dataset ;
+  dct:title "OWL to SHACL : close shapes with ignoredProperties" ;
+  dct:description "OWL 2 SHACL closed ruleset, that closes every NodeShape and ignore properties from sub-classes" ;
   foaf:isPrimaryTopicOf [
     dct:issued "2020-10-14"^^xsd:date ;
     dct:creator "Thomas Francart" ;
