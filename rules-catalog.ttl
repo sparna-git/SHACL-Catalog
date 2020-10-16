@@ -51,7 +51,7 @@
 .
 
 
-:owl2shacl-closed a dcat:Dataset ;
+:owl2sh-closed a dcat:Dataset ;
   dct:title "OWL to SHACL : closed" ;
   dct:description "OWL 2 SHACL conversion, with closed shapes" ;
   foaf:isPrimaryTopicOf [
