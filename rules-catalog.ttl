@@ -8,15 +8,15 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix :     <http://shacl-play.sparna.fr/rules-catalog#> .
 
-:owl2shacl-simple a dcat:Dataset ;
-  dct:title "OWL to SHACL : simple conversion" ;
-  dct:description "OWL 2 SHACL simple ruleset, derived from original ruleset from TopQuadrant" ;
+:owl2sh-open a dcat:Dataset ;
+  dct:title "OWL to SHACL : open world" ;
+  dct:description "OWL 2 SHACL conversion, without domain check and without closed shapes" ;
   foaf:isPrimaryTopicOf [
     dct:issued "2020-10-12"^^xsd:date ;
     dct:creator "Thomas Francart" ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2shacl-simple.ttl> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2sh-open.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
   ] ;
   dct:publisher "Sparna" ;  
@@ -29,15 +29,15 @@
   :targetModel <http://www.w3.org/ns/shacl#> ;
 .
 
-:owl2shacl-closed-flatten a dcat:Dataset ;
-  dct:title "OWL to SHACL : flatten classes" ;
-  dct:description "OWL 2 SHACL closed ruleset, that closes every NodeShape and copy downwards properties from superclasses" ;
+:owl2sh-semi-closed a dcat:Dataset ;
+  dct:title "OWL to SHACL : semi-closed" ;
+  dct:description "OWL 2 SHACL conversion, with domain check of the properties, without closed shapes" ;
   foaf:isPrimaryTopicOf [
     dct:issued "2020-10-14"^^xsd:date ;
     dct:creator "Thomas Francart" ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2shacl-closed.ttl> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2sh-semi-closed.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
   ] ;
   dct:publisher "Sparna" ;  
@@ -51,15 +51,15 @@
 .
 
 
-:owl2shacl-closed-ignore a dcat:Dataset ;
-  dct:title "OWL to SHACL : close shapes with ignoredProperties" ;
-  dct:description "OWL 2 SHACL closed ruleset, that closes every NodeShape and ignore properties from sub-classes" ;
+:owl2shacl-closed a dcat:Dataset ;
+  dct:title "OWL to SHACL : closed" ;
+  dct:description "OWL 2 SHACL conversion, with closed shapes" ;
   foaf:isPrimaryTopicOf [
     dct:issued "2020-10-14"^^xsd:date ;
     dct:creator "Thomas Francart" ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2shacl-closed-ignoredProperties.ttl> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/sparna-git/owl2shacl/main/owl2sh-closed.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
   ] ;
   dct:publisher "Sparna" ;  
