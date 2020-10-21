@@ -37,7 +37,7 @@
     dct:creator "Thomas Francart" ;
   ] ;
   dcat:distribution [
-    dcat:downloadURL <http://shacl-play.sparna.fr/play/resources/shapes/shacl-play-shapes-catalog.ttl> ;
+    dcat:downloadURL <https://shacl-play.sparna.fr/play/resources/shapes/shacl-play-shapes-catalog.ttl> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
   ] ;
   dcat:contactPoint <mailto:thomas.francart@sparna.fr> ;
@@ -46,7 +46,7 @@
   dct:issued "2020-01-13"^^xsd:date ;
   dct:creator "Thomas Francart" ;
   dct:language "en" ;
-  dcat:landingPage <http://shacl-play.sparna.fr/play/catalog> ;
+  dcat:landingPage <https://shacl-play.sparna.fr/play/catalog> ;
   dct:isRequiredBy <http://shacl-play.sparna.fr> ;
   dct:references <http://www.w3.org/ns/dcat#>, <http://purl.org/dc/terms/>, <http://xmlns.com/foaf/0.1/> ;
 .
