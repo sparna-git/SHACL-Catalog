@@ -31,7 +31,7 @@
 
 :shaclplay-catalog a dcat:Dataset ;
   dct:title "SHACL Play! Catalog shapes" ;
-  dct:description "The expected structure of the SHACL Play! <a href=\"http://shacl-play.sparna.fr/catalog\">Shapes Catalog</a>.";
+  dct:description "The expected structure of the SHACL Play! <a href=\"https://shacl-play.sparna.fr/play/catalog\">Shapes Catalog</a>.";
   foaf:isPrimaryTopicOf [
     dct:issued "2020-01-13"^^xsd:date ;
     dct:creator "Thomas Francart" ;
