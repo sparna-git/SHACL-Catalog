@@ -47,7 +47,7 @@
   dct:creator "Thomas Francart" ;
   dct:language "en" ;
   dcat:landingPage <https://shacl-play.sparna.fr/play/catalog> ;
-  dct:isRequiredBy <http://shacl-play.sparna.fr> ;
+  dct:isRequiredBy <https://shacl-play.sparna.fr> ;
   dct:references <http://www.w3.org/ns/dcat#>, <http://purl.org/dc/terms/>, <http://xmlns.com/foaf/0.1/> ;
 .
 
