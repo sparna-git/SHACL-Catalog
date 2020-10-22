@@ -132,3 +132,44 @@
   # dct:isRequiredBy <http://openarchaeo.huma-num.fr/explorateur/> ;
   dct:references <http://www.w3.org/2004/02/skos/core#>, <https://www.reseau-canope.fr/scolomfr/ontologie#>, <http://www.w3.org/2008/05/skos-xl#>, <http://www.w3.org/ns/dcat#>, <http://purl.org/dc/terms/>, <http://purl.org/iso25964/skos-thes#>, <http://www.w3.org/ns/prov#> ;
 .
+
+
+:op-skosShapes a dcat:Dataset ;
+  dct:title "SKOS Shapes (Office of Publications)" ;
+  dct:description """Implements the following SKOS constraint checks: 
+- S9	skos:ConceptScheme is disjoint with skos:Concept.  
+- S13 : skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties. 
+- S14	A resource has no more than one value of skos:prefLabel per language tag. 
+- S27	skos:related is disjoint with the property skos:broaderTransitive. 
+- S37	skos:Collection is disjoint with each of skos:Concept and skos:ConceptScheme.  
+- (9.6.4.) SKOS Concepts, Concept Collections and Semantic Relations  
+- S46	skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch. 
+- (10.6.2.) Clashes Between Hierarchical (skos:broadMatch skos:narrowMatch) and Associative (skos:relatedMatch, skos:closeMatch, skos:exactMatch) Mappings 
+- (B.3.4.2). SKOS+XL Labeling Integrity 
+Some warning and few error constraints are also taken from qSKOS validator [https://github.com/cmader/qSKOS/wiki/Quality-Issues#Labeling_and_Documentation_Issues] """ ;
+  foaf:isPrimaryTopicOf [
+    dct:issued "2020-10-22"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://op.europa.eu/documents/3938058/5352035/skosShapes.shapes.ttl/6f355b14-6b3e-844a-e05d-1528dd40c4b5?t=1545061378000> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://op.europa.eu/documents/3938058/5352035/swp.html/e3d67af9-640a-ec3b-4b21-7a8ddfbedab9> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> ;
+  ] ;
+  #dcat:distribution [
+  #  dcat:downloadURL <.xslx> ;
+  #  dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
+  #] ;
+  # dcat:contactPoint <mailto:> ;
+  dct:publisher "Office of Publications of the EU" ;  
+  dcat:keyword "SKOS", "SKOS-XL" ;
+  dct:issued "2020-01-01"^^xsd:date ;
+  dct:creator "Office of Publications of the EU" ;
+  dct:language "en" ;
+  dcat:landingPage <https://op.europa.eu/fr/web/eu-vocabularies/application-profiles> ;
+  # dct:isRequiredBy <http://openarchaeo.huma-num.fr/explorateur/> ;
+  dct:references <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/2008/05/skos-xl> ;
+.
