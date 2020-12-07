@@ -173,3 +173,29 @@ Some warning and few error constraints are also taken from qSKOS validator [http
   # dct:isRequiredBy <http://openarchaeo.huma-num.fr/explorateur/> ;
   dct:references <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/2008/05/skos-xl> ;
 .
+
+:lode a dcat:Dataset ;
+  dct:title "LODE Shapes from DBPedia Archivo" ;
+  dct:description "Set of constraints to validate an ontology so that it can be properly processed by the LODE tool to generate documentation";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2020-12-07"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://github.com/dbpedia/archivo/raw/master/shacl-library/LODE.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  #dcat:distribution [
+  #  dcat:downloadURL <.xslx> ;
+  #  dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
+  #] ;
+  # dcat:contactPoint <mailto:> ;
+  dct:publisher "DBPedia Archivo" ;  
+  dcat:keyword "OWL", "LODE", "Ontologies" ;
+  dct:issued "2020-07-05"^^xsd:date ;
+  dct:creator "DBPedia Archivo" ;
+  dct:language "en" ;
+  dcat:landingPage <https://archivo.dbpedia.org/> ;
+  dct:isRequiredBy <https://essepuntato.it/lode/>, <https://github.com/dgarijo/Widoco> ;
+  dct:references <http://purl.org/dc/elements/1.1/>, <http://www.w3.org/2002/07/owl#>, <http://www.w3.org/2000/01/rdf-schema#> ;
+.
