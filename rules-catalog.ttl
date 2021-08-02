@@ -24,6 +24,7 @@
   dct:issued "2020-10-14"^^xsd:date ;
   dct:creator "Sparna" ;
   dct:language "en" ;
+  dct:isVersionOf <https://www.topquadrant.com/from-owl-to-shacl-in-an-automated-way/> ;
   dcat:landingPage <https://github.com/sparna-git/owl2shacl> ;
   :sourceModel <http://www.w3.org/2002/07/owl#> ;
   :targetModel <http://www.w3.org/ns/shacl#> ;
@@ -45,6 +46,7 @@
   dct:issued "2020-10-14"^^xsd:date ;
   dct:creator "Sparna" ;
   dct:language "en" ;
+  dct:isVersionOf <https://www.topquadrant.com/from-owl-to-shacl-in-an-automated-way/> ;
   dcat:landingPage <https://github.com/sparna-git/owl2shacl> ;
   :sourceModel <http://www.w3.org/2002/07/owl#> ;
   :targetModel <http://www.w3.org/ns/shacl#> ;
@@ -67,6 +69,7 @@
   dct:issued "2020-10-14"^^xsd:date ;
   dct:creator "Sparna" ;
   dct:language "en" ;
+  dct:isVersionOf <https://www.topquadrant.com/from-owl-to-shacl-in-an-automated-way/> ;
   dcat:landingPage <https://github.com/sparna-git/owl2shacl> ;
   :sourceModel <http://www.w3.org/2002/07/owl#> ;
   :targetModel <http://www.w3.org/ns/shacl#> ;
