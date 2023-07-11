@@ -199,3 +199,29 @@ Some warning and few error constraints are also taken from qSKOS validator [http
   dct:isRequiredBy <https://essepuntato.it/lode/>, <https://github.com/dgarijo/Widoco> ;
   dct:references <http://purl.org/dc/elements/1.1/>, <http://www.w3.org/2002/07/owl#>, <http://www.w3.org/2000/01/rdf-schema#> ;
 .
+
+:sparnaturalShaclShapes a dcat:Dataset ;
+  dct:title "Sparnatural SHACL configuration profile" ;
+  dct:description "Defines the subset of SHACL used to configure [Sparnatural](https://sparnatural.eu). See more details in the [configuration documentation](http://docs.sparnatural.eu/SHACL-based-configuration)";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2023-07-11"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true&url=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F195NKb43Ck1yPGrIK4H8_HYGw9GTPnbtY%2Fexport%3Fformat%3Dxlsx> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://docs.google.com/spreadsheets/d/195NKb43Ck1yPGrIK4H8_HYGw9GTPnbtY/export?format=xlsx> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
+  ] ;
+  dcat:contactPoint <mailto:thomas.francart@sparna;fr> ;
+  dct:publisher "Sparna" ;  
+  dcat:keyword "Sparnatural", "SHACL", "SPARQL" ;
+  dct:issued "2023-07-11"^^xsd:date ;
+  dct:creator "Thomas Francart" ;
+  dct:language "en" ;
+  dcat:landingPage <http://docs.sparnatural.eu/SHACL-based-configuration> ;
+  dct:isRequiredBy <https://sparnatural.eu> ;
+  dct:references <http://www.w3.org/ns/shacl#>, <http://data.sparna.fr/ontologies/volipi>, <http://datashapes.org/dash#>, <http://www.w3.org/2000/01/rdf-schema#> ;
+.
