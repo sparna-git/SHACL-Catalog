@@ -215,7 +215,7 @@ Some warning and few error constraints are also taken from qSKOS validator [http
     dcat:downloadURL <https://docs.google.com/spreadsheets/d/195NKb43Ck1yPGrIK4H8_HYGw9GTPnbtY/export?format=xlsx> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/vnd.ms-excel> ;
   ] ;
-  dcat:contactPoint <mailto:thomas.francart@sparna;fr> ;
+  dcat:contactPoint <mailto:thomas.francart@sparna.fr> ;
   dct:publisher "Sparna" ;  
   dcat:keyword "Sparnatural", "SHACL", "SPARQL" ;
   dct:issued "2023-07-11"^^xsd:date ;
@@ -224,4 +224,48 @@ Some warning and few error constraints are also taken from qSKOS validator [http
   dcat:landingPage <http://docs.sparnatural.eu/SHACL-based-configuration> ;
   dct:isRequiredBy <https://sparnatural.eu> ;
   dct:references <http://www.w3.org/ns/shacl#>, <http://data.sparna.fr/ontologies/volipi>, <http://datashapes.org/dash#>, <http://www.w3.org/2000/01/rdf-schema#> ;
+.
+
+:xkosBpShapesConformance a dcat:Dataset ;
+  dct:title "XKOS best practices conformance shapes" ;
+  dct:description "Specifies the conformance shapes defined in the <a href=\"http://linked-statistics.github.io/xkos/xkos-best-practices.html\">XKOS Best Practices guide</a>. ";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2023-07-11"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <http://linked-statistics.github.io/xkos/xkos-best-practices-conformance-shapes.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dcat:contactPoint <https://github.com/linked-statistics/xkos/> ;
+  dct:publisher "DDi Alliance https://www.ddialliance.org/" ;  
+  dcat:keyword "XKOS", "SKOS", "Statistical classifications" ;
+  dct:issued "2023-01-20"^^xsd:date ;
+  dct:creator "Thomas Francart" ;
+  dct:language "en" ;
+  dcat:landingPage <http://linked-statistics.github.io/xkos/xkos-best-practices.html#shacl-howto> ;
+  # dct:isRequiredBy <https://sparnatural.eu> ;
+  dct:references <http://rdf-vocabulary.ddialliance.org/xkos#>, <http://www.w3.org/2004/02/skos/core#>, <http://purl.org/dc/terms/>, <http://purl.org/dc/elements/1.1/>, <http://schema.org>, <http://data.europa.eu/eli/ontology#> ;
+.
+
+:xkosBpShapesRecommended a dcat:Dataset ;
+  dct:title "XKOS best practices recommended and optional shapes" ;
+  dct:description "Specifies the recommended and optional shapes defined in the <a href=\"http://linked-statistics.github.io/xkos/xkos-best-practices.html\">XKOS Best Practices guide</a>. ";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2023-07-11"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <http://linked-statistics.github.io/xkos/xkos-best-practices-recommended-optional-shapes.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dcat:contactPoint <https://github.com/linked-statistics/xkos/> ;
+  dct:publisher "DDi Alliance https://www.ddialliance.org/" ;  
+  dcat:keyword "XKOS", "SKOS", "Statistical classifications" ;
+  dct:issued "2023-01-20"^^xsd:date ;
+  dct:creator "Thomas Francart" ;
+  dct:language "en" ;
+  dcat:landingPage <http://linked-statistics.github.io/xkos/xkos-best-practices.html#shacl-howto> ;
+  # dct:isRequiredBy <https://sparnatural.eu> ;
+  dct:references <http://rdf-vocabulary.ddialliance.org/xkos#>, <http://www.w3.org/2004/02/skos/core#>, <http://purl.org/dc/terms/>, <http://purl.org/dc/elements/1.1/>, <http://schema.org>, <http://data.europa.eu/eli/ontology#> ;
 .
