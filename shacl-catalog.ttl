@@ -202,7 +202,7 @@ Some warning and few error constraints are also taken from qSKOS validator [http
 
 :sparnaturalShaclShapes a dcat:Dataset ;
   dct:title "Sparnatural SHACL configuration profile" ;
-  dct:description "Defines the subset of SHACL used to configure [Sparnatural](https://sparnatural.eu). See more details in the [configuration documentation](http://docs.sparnatural.eu/SHACL-based-configuration)";
+  dct:description "Defines the subset of SHACL used to configure <a href=\"https://sparnatural.eu\">Sparnatural</a>. See more details in the <a href=\"http://docs.sparnatural.eu/SHACL-based-configuration\">configuration documentation</a>";
   foaf:isPrimaryTopicOf [
     dct:issued "2023-07-11"^^xsd:date ;
     dct:creator "Thomas Francart" ;
