@@ -269,3 +269,25 @@ Some warning and few error constraints are also taken from qSKOS validator [http
   # dct:isRequiredBy <https://sparnatural.eu> ;
   dct:references <http://rdf-vocabulary.ddialliance.org/xkos#>, <http://www.w3.org/2004/02/skos/core#>, <http://purl.org/dc/terms/>, <http://purl.org/dc/elements/1.1/>, <http://schema.org>, <http://data.europa.eu/eli/ontology#> ;
 .
+
+:rdafr a dcat:Dataset ;
+  dct:title "RDA-FR application profile" ;
+  dct:description "The RDA-FR application profile defines the rules and constraints for producing and validating RDF data in a data graph conforming to RDA-FR. ";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2023-11-07"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://rdafr.fr/profil-application/rdafr-shacl.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dcat:contactPoint <https://github.com/transition-bibliographique/ontologie-rda-fr> ;
+  dct:publisher "ABES + BNF" ;  
+  dcat:keyword "RDA", "LRM", "ABES", "BNF", "RDA-FR" ;
+  dct:issued "2023-01-01"^^xsd:date ;
+  dct:creator "ABES", "BNF" ;
+  dct:language "fr" ;
+  dcat:landingPage <https://rdafr.fr/> ;
+  # dct:isRequiredBy <https://sparnatural.eu> ;
+  dct:references <https://rdafr.fr/ontologie/ontology.ttl> ;
+.
