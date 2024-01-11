@@ -291,3 +291,27 @@ Some warning and few error constraints are also taken from qSKOS validator [http
   # dct:isRequiredBy <https://sparnatural.eu> ;
   dct:references <https://rdafr.fr/ontologie/ontology.ttl> ;
 .
+
+:geosparql11 a dcat:Dataset ;
+  dct:title "GeoSPARQL 1.1 RDF Shapes" ;
+  dct:description """This is a [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/) file that specifies constraints for RDF data. It can be used to test the conformance of data to the GeoSPARQL standard.
+	
+As of GeoSPARQL 1.1, this validator is not normative, only informative, however this is likely to be the basis of future, normative, validators.""";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2024-01-11"^^xsd:date ;
+    dct:creator "Thomas Francart" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://github.com/opengeospatial/ogc-geosparql/raw/master/spec/ontology/validation/validator.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dcat:contactPoint <https://www.ogc.orgl> ;
+  dct:publisher "Open Geospatial Consortium" ;  
+  dcat:keyword "GeoSPARQL", "SPARQL", "spatial", "geometry" ;
+  dct:issued "2021-06-13"^^xsd:date ;
+  dct:creator "Open Geospatial Consortium" ;
+  dct:language "en" ;
+  dcat:landingPage <https://github.com/opengeospatial/ogc-geosparql> ;
+  # dct:isRequiredBy <https://sparnatural.eu> ;
+  dct:references <http://www.opengis.net/ont/geosparql>, <http://www.opengis.net/ont/sf> ;
+.
