@@ -315,3 +315,23 @@ As of GeoSPARQL 1.1, this validator is not normative, only informative, however 
   # dct:isRequiredBy <https://sparnatural.eu> ;
   dct:references <http://www.opengis.net/ont/geosparql>, <http://www.opengis.net/ont/sf> ;
 .
+
+:SchemaAPndeShapesConformance a dcat:Dataset ;
+  dct:title "Schema.org Application Profile for NDE" ;
+  dct:description "Specifies the generic data model to be used when publishing linked data in the Dutch Digital Heritage network (NDE).";
+  foaf:isPrimaryTopicOf [
+    dct:issued "2025-10-03"^^xsd:date ;
+    dct:creator "David de Boer (Netwerk Digitaal Erfgoed)" ;
+  ] ;
+  dcat:distribution [
+    dcat:downloadURL <https://raw.githubusercontent.com/netwerk-digitaal-erfgoed/schema-profile/refs/heads/main/shacl.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> ;
+  ] ;
+  dcat:contactPoint <https://github.com/netwerk-digitaal-erfgoed/schema-profile/issues/> ;
+  dct:publisher "Netwerk Digitaal Erfgoed https://www.netwerkdigitaalerfgoed.nl/" ;  
+  dcat:keyword "heritage" ;
+  dct:issued "2025-10-03"^^xsd:date ;
+  dct:creator "David de Boer" ;
+  dct:language "en" ;
+  dcat:landingPage <https://docs.nde.nl/schema-profile/> ;
+.
